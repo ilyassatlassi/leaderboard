@@ -1,0 +1,45 @@
+h1 {
+  margin: 5%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5% 10%;
+  gap: 30px;
+}
+
+.container1 {
+  width: 50%;
+}
+
+.recent-scores {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+table {
+    border: 1px solid black;
+    width: 100%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(165, 165, 160);
+    
+  }
+  
+  .container2 {
+    width: 50%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+
+.submitBtn {
+  width: 20%;
+}
