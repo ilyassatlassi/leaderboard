@@ -1,4 +1,4 @@
-# To Do List 📝
+# leaderboard 📝
 
 <div align="center">
 
@@ -28,7 +28,7 @@
 
 # 🚀 Live Demo <a name="live-demo"></a>
 
-[To Do List 📝](https://ilyassatlassi.github.io/webpack/)
+comming soon
 
 ### Server
 
@@ -135,4 +135,6 @@ I would like to thank Microverse team for this journey.
 
 # 📝 License
 
-This project is MIT licensed.
+This project is [MIT](./LICENCE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
