@@ -25,6 +25,7 @@
 - JS.
 - Webpack
 
+
 # 🚀 Live Demo <a name="live-demo"></a>
 
 [To Do List 📝](https://ilyassatlassi.github.io/webpack/)
@@ -43,6 +44,7 @@
 - CSS3.
 - Javascript OOP, ES6.
 - Webpack.
+- Gitflow
 
 # 💻 Getting Started
 
@@ -51,7 +53,7 @@
 1. Installed Git.
 2. Create a local directory that you want to clone the repository.
 3. Open the command prompt in the created directory.
-4. On the terminal run this command git clone https://github.com/ilyassatlassi/webpack.git
+4. On the terminal run this command git clone https://github.com/ilyassatlassi/leaderboard.git
 5. Install the dev dependencies for linters run npm install.
 6. run: ```npm  i --save-dev webpack webpack-cli webpack-dev-server @babel/core @babel/preset-env babel-loader style-loader css-loader sass-loader html-webpack-plugin mini-css-extract-plugin ```
 
@@ -78,8 +80,8 @@ After Installing all the packages run this command ``` npm run start ``` to star
 
 ### To run the project, execute the following command
 
-- git clone <https://github.com/ilyassatlassi/webpack.git>
-- cd To-Do-List
+- git clone <https://github.com/ilyassatlassi/leaderboard.git>
+- cd leaderboard
 
 # Run tests
 
