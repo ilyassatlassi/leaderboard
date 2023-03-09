@@ -1,4 +1,4 @@
 import './style.css';
 import './modules/get-data.js';
 import './modules/creatGame.js';
-import './modules/post-data';
+import './modules/post-data.js';
