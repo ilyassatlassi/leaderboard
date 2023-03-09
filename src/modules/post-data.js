@@ -26,3 +26,4 @@ document.querySelector('#submitBtn').addEventListener('click', (event) => {
 });
 };
 send();
+
