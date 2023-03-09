@@ -12,6 +12,7 @@ const printData = (data) => {
     const score = document.querySelector("#result")
     data.result.forEach((element) => {
         score.innerHTML += `
+        <table
         <p>${element.user} : ${element.score}</p>`
     });
 }

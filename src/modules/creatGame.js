@@ -12,7 +12,7 @@ const createGame = async () => {
     },
   );
   const res = await response.json();
-  console.log(myJson)
+  console.log(res)
   return res;
 };
 
