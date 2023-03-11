@@ -12,8 +12,8 @@ body {
     90deg,
     #000 0 40%,
     rgba(0, 0, 0, 0.1)
-    ),
-  url("img.jpg");
+  ),
+    url("img.jpg");
   background-position: center;
   background-size: cover;
   min-height: 100vh;
