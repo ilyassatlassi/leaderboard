@@ -9,9 +9,7 @@ const printData = (data) => {
   const score = document.querySelector('#result');
   data.result.forEach((element) => {
     score.innerHTML += `
-        <table>
-        <tr><td>${element.user} : ${element.score}</td></tr>
-        </table>
+        <tr><td>${element.user}</td> <td>${element.score}</td></tr>
         `;
   });
 };

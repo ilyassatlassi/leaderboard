@@ -1,3 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #000 0 40%, rgba(0, 0, 0, 0.1)),
+  url("img.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  z-index: -1;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 380px;
+  height: 420px;
+  background: linear-gradient(0deg,transparent,
+  transparent,#45f3ff,#45f3ff,#45f3ff);
+  z-index: 1;
+  animation: animate 6s linear infinite;
+}
 h1 {
   margin: 5%;
 }
@@ -12,34 +42,120 @@ h1 {
 
 .container1 {
   width: 50%;
+  background: #1c1c1c;
+  border-radius: 8px;
 }
 
 .recent-scores {
   display: flex;
-  align-items: center;
-  gap: 10px;
+  /* align-items: center; */
+  justify-content: space-around;
+  margin-top: 20px;
 }
 
-table {
-  border: 1px solid black;
+.container1 .result {
+  background: #222;
+}
+
+.container1 table {
   width: 100%;
+  margin-top: 2em;
+  color: #fff;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-tr:nth-child(even) {
-  background-color: rgb(165, 165, 160);
+.container1 table thead{
+  background-color: transparent;
+}
+
+.container1 table td {
+  max-width: 2em;
+  padding: .5em;
+  text-align: center;
+}
+
+.container1 table tr {
+  box-shadow: 0 2px rgba(100,100,100,.5);
+  border-radius: 10px;
+}
+
+.container1 tr:hover{
+  transform: scale(1.025);
+  transition: .2s ease-in-out;
+}
+
+.container1 td:nth-child(2) p{
+  display: inline-block;
+  transform: translatey(-.5em);
+  padding-left: .5em;
+  text-align: left;
+}
+
+.container1 td:nth-child(2) {
+  max-width: 5em;
+}
+
+.container1 td:nth-child(even) {
+  background-color: #101;
 }
 
 .container2 {
   width: 50%;
+  background: #1c1c1c;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-form {
+.container2::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 380px;
+  height: 420px;
+  background: linear-gradient(0deg,transparent,
+  transparent,#45f3ff,#45f3ff,#45f3ff);
+  z-index: 1;
+  transform-origin: bottom right;
+  animation: animate 6s linear infinite;
+  animation-delay: -3s;
+}
+
+.container2 form {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  gap: 20px;
+  gap: 10px;
+  inset: 4px;
+  background: #222;
+  padding: 50px 50px;
+  border-radius: 8px;
+  z-index: 2;
+
+
+}
+
+h2 {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+
+.container2 input {
+  width: 300px;
 }
 
 .submitBtn {
   width: 20%;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+
 }
